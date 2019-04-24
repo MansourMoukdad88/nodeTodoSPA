@@ -1,11 +1,12 @@
 import React from 'react';
-//import logo from './logo.svg';
+import TodoList from "./TodoList"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       This is the todo App
+      <TodoList/>
     </div>
   );
 }
